@@ -1,5 +1,5 @@
 //
-//  instalmentViewController.h
+//  InstalmentViewController.h
 //  testApp
 //
 //  Created by 刘庆良 on 15/7/23.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface instalmentViewController : UIViewController
+@interface InstalmentViewController : UIViewController
 
 @end

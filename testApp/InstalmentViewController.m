@@ -1,23 +1,22 @@
 //
-//  instalmentViewController.m
+//  InstalmentViewController.m
 //  testApp
 //
 //  Created by 刘庆良 on 15/7/23.
 //  Copyright (c) 2015年 creditease. All rights reserved.
 //
 
-#import "instalmentViewController.h"
+#import "InstalmentViewController.h"
 
-@interface instalmentViewController ()
+@interface InstalmentViewController ()
 
 @end
 
-@implementation instalmentViewController
+@implementation InstalmentViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    NSLog(@"Hello");
 }
 
 - (void)didReceiveMemoryWarning {
