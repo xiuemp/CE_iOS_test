@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2E09ACEE1B6096A200980A97 /* instalmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E09ACED1B6096A200980A97 /* instalmentViewController.m */; };
 		2E09ACF11B60BF6300980A97 /* DropDownList.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E09ACF01B60BF6300980A97 /* DropDownList.m */; };
 		2E09ACF41B60EA8100980A97 /* InstalmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E09ACF31B60EA8100980A97 /* InstalmentView.m */; };
+		2E09ACFA1B6123AE00980A97 /* InstalmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E09ACF91B6123AE00980A97 /* InstalmentViewController.m */; };
 		2E83ABCF1B5F849300AC9ED9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E83ABCE1B5F849300AC9ED9 /* main.m */; };
 		2E83ABD21B5F849300AC9ED9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E83ABD11B5F849300AC9ED9 /* AppDelegate.m */; };
 		2E83ABD51B5F849300AC9ED9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E83ABD41B5F849300AC9ED9 /* ViewController.m */; };
@@ -31,12 +31,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2E09ACEC1B6096A200980A97 /* instalmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = instalmentViewController.h; sourceTree = "<group>"; };
-		2E09ACED1B6096A200980A97 /* instalmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = instalmentViewController.m; sourceTree = "<group>"; };
 		2E09ACEF1B60BF6300980A97 /* DropDownList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropDownList.h; sourceTree = "<group>"; };
 		2E09ACF01B60BF6300980A97 /* DropDownList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropDownList.m; sourceTree = "<group>"; };
 		2E09ACF21B60EA8100980A97 /* InstalmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstalmentView.h; sourceTree = "<group>"; };
 		2E09ACF31B60EA8100980A97 /* InstalmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstalmentView.m; sourceTree = "<group>"; };
+		2E09ACF81B6123AE00980A97 /* InstalmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstalmentViewController.h; sourceTree = "<group>"; };
+		2E09ACF91B6123AE00980A97 /* InstalmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstalmentViewController.m; sourceTree = "<group>"; };
 		2E83ABC91B5F849300AC9ED9 /* testApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E83ABCD1B5F849300AC9ED9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E83ABCE1B5F849300AC9ED9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -103,12 +103,12 @@
 				2E83ABD91B5F849300AC9ED9 /* Images.xcassets */,
 				2E83ABDB1B5F849300AC9ED9 /* LaunchScreen.xib */,
 				2E83ABCC1B5F849300AC9ED9 /* Supporting Files */,
-				2E09ACEC1B6096A200980A97 /* instalmentViewController.h */,
-				2E09ACED1B6096A200980A97 /* instalmentViewController.m */,
 				2E09ACEF1B60BF6300980A97 /* DropDownList.h */,
 				2E09ACF01B60BF6300980A97 /* DropDownList.m */,
 				2E09ACF21B60EA8100980A97 /* InstalmentView.h */,
 				2E09ACF31B60EA8100980A97 /* InstalmentView.m */,
+				2E09ACF81B6123AE00980A97 /* InstalmentViewController.h */,
+				2E09ACF91B6123AE00980A97 /* InstalmentViewController.m */,
 			);
 			path = testApp;
 			sourceTree = "<group>";
@@ -239,10 +239,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E09ACEE1B6096A200980A97 /* instalmentViewController.m in Sources */,
 				2E83ABD51B5F849300AC9ED9 /* ViewController.m in Sources */,
 				2E09ACF11B60BF6300980A97 /* DropDownList.m in Sources */,
 				2E83ABD21B5F849300AC9ED9 /* AppDelegate.m in Sources */,
+				2E09ACFA1B6123AE00980A97 /* InstalmentViewController.m in Sources */,
 				2E83ABF41B5F8F0F00AC9ED9 /* Person.m in Sources */,
 				2E09ACF41B60EA8100980A97 /* InstalmentView.m in Sources */,
 				2E83ABCF1B5F849300AC9ED9 /* main.m in Sources */,

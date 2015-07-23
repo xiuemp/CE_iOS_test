@@ -7,6 +7,7 @@
 //
 
 #import "InstalmentViewController.h"
+#import "DropDownList.h"
 
 @interface InstalmentViewController ()
 
@@ -17,6 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    DropDownList *droplist = [[DropDownList alloc] initWithFrame:CGRectMake(10, 10, 140, 100)];
+    droplist.textField.placeholder = @"请输入联系方式";
+    NSArray* arr=[[NSArray alloc]initWithObjects:@"电话",@"email",@"手机",@"aaa",@"bbb",@"ccc",nil];
+    droplist.tableArray = arr;
+    [self.view addSubview:droplist];
 }
 
 - (void)didReceiveMemoryWarning {
