@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, strong) UIPickerView *myPicker;
+@property (nonatomic, strong) UITableView *myTableView;
 
 @end
 
